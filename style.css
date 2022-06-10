@@ -1,0 +1,101 @@
+
+
+body{
+	background:#E6E6ED;
+	color: #8E9481;
+	font-family: 'EB Garamond', serif;
+	font-weight: lighter;
+	font-size: 16px;
+	/* margin: 40px auto; */
+}
+
+a {
+    text-decoration: none;
+    color: #7ECE90;
+    font-weight: 600;
+  }
+a:hover {
+	font-weight: 900;
+	text-decoration: underline; 
+	transform: color 0.3s ease;
+}
+
+
+h1 {
+	 color:#8E9481;
+	 font-weight: 600;
+	 font-family: 'Playfair Display', serif;
+	 font-size: 30px;
+	 letter-spacing: 8px;
+	 font-style: italic;
+ }
+	 
+	  
+
+h2 {
+    color: #8E9481;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+
+/* Custom design with Class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	border-block-start: none;
+	padding: center;
+}
+
+.box-white {background: white;padding: 15px;/* padding-left: 200px; */border-radius: 4px;box-shadow: 0 10px 30px rgba(0,0,0,.1);margin: 5px 5px;text-align: center;}
+
+.img-circle { border-radius: 50%;
+
+}
+
+.btn-green {
+	background: #7ECE90;
+	color: white;
+	font-size: 14px;
+	padding: 5px 2px;
+	border-radius: 4px;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+.list-inline i {
+	color: #E6E6ED;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+.list-inline i:hover {
+ font-weight:900;
+ color:#7ECE90;
+}
+
+/* Custom adjustments with id*/
+
+#introduction p{
+	margin-bottom: 40px auto;
+	font-size:12px;
+}
+
+
+
+
+
+
+
+
